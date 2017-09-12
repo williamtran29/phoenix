@@ -17,6 +17,8 @@ RUN mix local.hex --force \
  && apt-get install -y curl \
  && apt-get install -y make \
  && apt-get install -y sudo \
+ && apt-get install -y gcc \
+ && apt-get install -y libc6-dev \
  && apt-get install -y build-essential \
  && apt-get install -y libssl-dev \
  && apt-get install -y gcc g++ libc-dev \
